@@ -1,11 +1,16 @@
 const renderColumnSums = function() {
-  // your pseudocode here
+  // for each column
+  //     sum = sumColumn(column #)
+  //     setFooter(column, sum)
 };
 
-const TODO = function() {
-  // your pseudocode here
+const sumColumn = function(column) {
+  // start with value of zero
+  // for each row of given column add to value
+  // return the value
 };
 
-const TODO = function() {
-  // your pseudocode here
+const setFooter = function(column, sum) {
+  // find footer of given column
+  // set footer equal to sum
 };
